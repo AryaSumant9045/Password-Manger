@@ -4,7 +4,7 @@ const Manager = () => {
   const ref = useRef()
   const ShowPassword = () =>{
     alert("show password")
-    ref.current.src = <img src="https://img.icons8.com/ios-filled/50/invisible.png" alt="eye cross" />
+    ref.current.src = <img src="https://img.icons8.com/ios-filled/50/closed-eye.png" alt="eye cross" />
   }
   return (
     <>
