@@ -4,11 +4,11 @@ const Manager = () => {
   const ref = useRef()
   const ShowPassword = () =>{
     alert("show password")
-    if(ref.current.src.inclue('icons/icons8-invisible-30.png')){
-      ref.current.src = 'icons/icons8-angry-50.png'
+    if(ref.current.src.inclue('icons/crosseye.png')){
+      ref.current.src = 'icons/eye.png'
     }
     else{
-    ref.current.src = 'icons/icons8-invisible-30.png'
+    ref.current.src = 'icons/crosseye.png'
     }
   }
   return (
@@ -48,7 +48,7 @@ const Manager = () => {
               type="text"
             />
             <span className="absolute right-0 cursor-pointer">
-              <img width={35} ref={ref} className="p-1" src='icons/icons8-angry-50.png' alt="eye" onClick={ShowPassword}/>
+              <img width={35} ref={ref} className="p-1" src='icons/eye.png' alt="eye" onClick={ShowPassword}/>
             </span>
             </div>
           </div>
