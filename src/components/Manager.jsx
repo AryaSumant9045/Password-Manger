@@ -4,6 +4,7 @@ const Manager = () => {
   const ref = useRef()
   const ShowPassword = () =>{
     alert("show password")
+    ref.current.src = 
   }
   return (
     <>
