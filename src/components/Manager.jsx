@@ -33,7 +33,7 @@ const Manager = () => {
           <div className="flex w-full gap-8 justify-between">
             <input
             placeholder="Enter Username"
-              className="rounded-full border border-green-500 p-4 py-1 w-full"
+              className="icons/icons8-invisible-30.png"
               type="text"
             />
             <div className="relative">
