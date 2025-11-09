@@ -4,7 +4,7 @@ const Manager = () => {
   const ref = useRef()
   const ShowPassword = () =>{
     alert("show password")
-    if(ref.current.src.inclue('icons/crosseye.png')){
+    if(ref.current.src.include('icons/crosseye.png')){
       ref.current.src = 'icons/eye.png'
     }
     else{
