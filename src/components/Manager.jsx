@@ -5,9 +5,11 @@ const Manager = () => {
   const ShowPassword = () =>{
     alert("show password")
     if(ref.current.src.inclue('icons/icons8-invisible-30.png')){
-      ref.
+      ref.current.src = 'icons/icons8-angry-50.png'
     }
+    else{
     ref.current.src = 'icons/icons8-invisible-30.png'
+    }
   }
   return (
     <>
