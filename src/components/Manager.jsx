@@ -37,7 +37,7 @@ const Manager = () => {
               className="rounded-full border border-green-500 p-4 py-1 w-full"
               type="text"
             />
-            <span className="absolute right-0">
+            <span className="absolute right-0 cursor-pointer">
               <img width={35} className="p-1" src="https://img.icons8.com/ios-filled/50/visible.png" alt="eye" />
             </span>
             </div>
