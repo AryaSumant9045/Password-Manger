@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useRef } from "react";
 
 const Manager = () => {
+  const 
   const ShowPassword = () =>{
     alert("show password")
   }
@@ -41,7 +42,7 @@ const Manager = () => {
               type="text"
             />
             <span className="absolute right-0 cursor-pointer">
-              <img width={35} className="p-1" src="https://img.icons8.com/ios-filled/50/visible.png" alt="eye" onClick={ShowPassword}/>
+              <img width={35} ref={useRef} className="p-1" src="https://img.icons8.com/ios-filled/50/visible.png" alt="eye" onClick={ShowPassword}/>
             </span>
             </div>
           </div>
