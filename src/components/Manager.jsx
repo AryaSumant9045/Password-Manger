@@ -38,7 +38,7 @@ const Manager = () => {
               type="text"
             />
             <span className="absolute right-0">
-              <img width={33} src="https://img.icons8.com/ios-filled/50/visible.png" alt="eye" />
+              <img width={40} className="p-2" src="https://img.icons8.com/ios-filled/50/visible.png" alt="eye" />
             </span>
             </div>
           </div>
