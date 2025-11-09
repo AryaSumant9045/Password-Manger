@@ -4,7 +4,7 @@ const Manager = () => {
   const ref = useRef()
   const ShowPassword = () =>{
     alert("show password")
-    ref.current.src = <img src="https://img.icons8.com/ios-filled/50/closed-eye.png" alt="eye cross" />
+    ref.current.src = <img src="https://img.icons8.com/ios-filled/50/invisible.png" alt="eye cross" />
   }
   return (
     <>
@@ -43,7 +43,7 @@ const Manager = () => {
               type="text"
             />
             <span className="absolute right-0 cursor-pointer">
-              <img width={35} ref={ref} className="p-1" src="https://img.icons8.com/ios-filled/50/closed-eye.png" alt="eye" onClick={ShowPassword}/>
+              <img width={35} ref={ref} className="p-1" src="https://img.icons8.com/ios-filled/50/visible.png" alt="eye" onClick={ShowPassword}/>
             </span>
             </div>
           </div>
