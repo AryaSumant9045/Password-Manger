@@ -1,7 +1,7 @@
 import React from "react";
 
 const Manager = () => {
-  const ShowPassword = (params) =>{
+  const ShowPassword = () =>{
     alert("show password")
   }
   return (
