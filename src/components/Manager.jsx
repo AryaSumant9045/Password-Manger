@@ -121,6 +121,7 @@ const Manager = () => {
                 return (
                   <tr key={index}>
                     <td className="border px-4 py-2 text-center">
+                      <a href={item.site}></a>
                       {item.site}
                     </td>
                     <td className="border px-4 py-2 text-center">
