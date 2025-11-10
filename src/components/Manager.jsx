@@ -90,6 +90,9 @@ const Manager = () => {
             Add Password
           </button>
         </div>
+        <div className="passwords">
+          <h2></h2>
+        </div>
       </div>
     </>
   );
