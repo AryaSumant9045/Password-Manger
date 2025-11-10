@@ -115,13 +115,13 @@ const Manager = () => {
             </thead>
 
             <tbody>
-              <tr>
+              
+              {passwordArray.map((item, index)=>{
+                return <tr key={index}>
                 <td className="border px-4 py-2 text-center">Intro to CSS</td>
                 <td className="border px-4 py-2 text-center">Adam</td>
                 <td className="border px-4 py-2 text-center">858</td>
               </tr>
-              {passwordArray.map((item, index)=>{
-                
               })}
             </tbody>
           </table>}
