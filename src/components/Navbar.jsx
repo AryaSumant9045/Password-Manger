@@ -20,7 +20,7 @@ const Navbar = () => {
       <button>
         <div className='flex justify-between'>
           <img src="/icons/github.png" alt="" />
-          <span className='pt-3 font-bold hover:cursor-'>Github</span>
+          <span className='pt-3 font-bold hover:cursor-pointer'>Github</span>
         </div>
       </button>
       </div>
