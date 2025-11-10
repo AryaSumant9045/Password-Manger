@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <div className="className bg-slate-300">
+      <div className="className w-full sm:w-3/4 md:w-1/2 lg:w-1/3">
         <Navbar />
         {/* fixed to viewport — always visible as you scroll */}
         <div
