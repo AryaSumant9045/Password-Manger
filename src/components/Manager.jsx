@@ -17,7 +17,7 @@ const Manager = () => {
 
   }
   const handleChange = (e) =>{
-    setForm({})
+    setForm({...form, [e.target.name]: e.target.value})
   }
 
   return (
