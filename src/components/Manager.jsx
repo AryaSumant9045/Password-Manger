@@ -14,13 +14,13 @@ const Manager = () => {
   }, []);
 
   const ShowPassword = () => {
-    passwordRef.current.type = 'text'
+    passwordRef.current.type = 'password'
     if (ref.current.src.includes("icons/crosseye.png")) {
-      ref.current.src = "icons/eye.png";
-      passwordRef.current.type = 'password'
-    } else {
       ref.current.src = "icons/crosseye.png";
       passwordRef.current.type = 'text'
+    } else {
+      ref.current.src = "icons/crosseye.png";
+      passwordRef.current.type = 'password'
     }
   };
   const savePassword = () => {
