@@ -107,7 +107,7 @@ const Manager = () => {
       <div className="passwords flex justify-center">
         {passwordArray.length === 0 && <div>No password to show</div>}
         {passwordArray.length != 0 && (
-          <table className="table-auto w-auto bg-purple-200 rounded-md overflow-hidden">
+          <table className="table-auto  className=" max-w-md" bg-purple-200 rounded-md overflow-hidden">
             <thead className=" bg-purple-500 text-white">
               <tr>
                 <th className="px-4 py-2">Site</th>
@@ -116,7 +116,7 @@ const Manager = () => {
               </tr>
             </thead>
 
-            <tbody className=" max-w-max">
+            <tbody>
               {passwordArray.map((item, index) => {
                 return (
                   <tr key={index}>
