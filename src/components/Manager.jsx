@@ -101,11 +101,11 @@ const Manager = () => {
           </button>
         </div>
       </div>
-      <h2>Your Passwords</h2>
+      <h2 className="mx-3">Your Passwords</h2>
       <div className="passwords flex justify-center">
           
           <table className="table-auto w-auto">
-            <thead className=" bg-purple-800 text-white">
+            <thead className=" bg-purple-500 text-white">
               <tr>
                 <th className="px-4 py-2">Title</th>
                 <th className="px-4 py-2">Author</th>
