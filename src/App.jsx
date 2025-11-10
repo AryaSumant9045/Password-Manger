@@ -9,7 +9,7 @@ function App() {
     <>
       <Navbar/>
       <Manager/>
-    <div>MY UI </div>
+    <div></div>
     </>
   )
 }
