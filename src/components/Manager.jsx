@@ -47,6 +47,7 @@ const Manager = () => {
       progress: undefined,
       theme: "light"
     });
+    navigator.clipboard.writeText(text);
   };
 
   return (
