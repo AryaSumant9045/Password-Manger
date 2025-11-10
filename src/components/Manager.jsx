@@ -73,7 +73,7 @@ const Manager = () => {
       pauseOnHover: true,
       draggable: true,
       progress: undefined,
-      theme: "light",
+      theme: "dark",
     });
     navigator.clipboard.writeText(text);
   };
