@@ -131,11 +131,13 @@ const Manager = () => {
                       </a>
                       <img className="w-5 hover:cursor-pointer" src="/icons/copy.apng" alt="copy" />
                     </td>
-                    <td className="border px-4 py-2 text-center">
+                    <td className="border flex px-4 py-2 text-center">
                       {item.username}
+                      <img className="w-5 hover:cursor-pointer" src="/icons/copy.apng" alt="copy" />
                     </td>
-                    <td className="border px-4 py-2 text-center">
+                    <td className="border flex px-4 py-2 text-center">
                       {item.password}
+                      <img className="w-5 hover:cursor-pointer" src="/icons/copy.apng" alt="copy" />
                     </td>
                   </tr>
                 );
