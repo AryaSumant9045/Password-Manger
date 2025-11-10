@@ -124,10 +124,10 @@ const Manager = () => {
                       {item.site}
                     </td>
                     <td className="border px-4 py-2 text-center">
-                      {index.username}
+                      {item.username}
                     </td>
                     <td className="border px-4 py-2 text-center">
-                      {index.password}
+                      {item.password}
                     </td>
                   </tr>
                 );
