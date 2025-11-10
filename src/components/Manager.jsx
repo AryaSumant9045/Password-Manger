@@ -17,10 +17,10 @@ const Manager = () => {
     passwordRef.current.type = 'text'
     if (ref.current.src.includes("icons/crosseye.png")) {
       ref.current.src = "icons/eye.png";
-      passwordRef.current.type = 'text'
+      passwordRef.current.type = 'password'
     } else {
       ref.current.src = "icons/crosseye.png";
-      passwordRef.current.type = 'password'
+      passwordRef.current.type = 'text'
     }
   };
   const savePassword = () => {
