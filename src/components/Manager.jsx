@@ -101,7 +101,7 @@ const Manager = () => {
           </button>
         </div>
       </div>
-      <h1 className="mx-3 text-2xl mt-3 font-bold pl- text-purple-600">Your Passwords :-</h1>
+      <h1 className="mx-3 text-2xl mt-3 font-bold text-purple-600">Your Passwords :-</h1>
       <div className="passwords flex justify-center">
           
           <table className="table-auto w-auto">
@@ -115,24 +115,24 @@ const Manager = () => {
 
             <tbody>
               <tr>
-                <td className="border px-4 py-2 text-center">Intro to CSS</td>
-                <td className="border px-4 py-2 text-center">Adam</td>
-                <td className="border px-4 py-2 text-center">858</td>
+                <td className="border px-4 py-2">Intro to CSS</td>
+                <td className="border px-4 py-2">Adam</td>
+                <td className="border px-4 py-2">858</td>
               </tr>
 
               <tr class="NameclassNamebg-gray-100">
-                <td className="border px-4 py-2 text-center">
+                <td className="border px-4 py-2">
                   A Long and Winding Tour of the History of UI Frameworks and
-                  
+                  Tools and the Impact on Design
                 </td>
-                <td className="border px-4 py-2 text-center">Adam</td>
+                <td className="border px-4 py-2">Adam</td>
                 <td className="border px-4 py-2">112</td>
               </tr>
 
               <tr>
-                <td className="border px-4 py-2 text-center">Intro to JavaScript</td>
-                <td className="border px-4 py-2 text-center">Chris</td>
-                <td className="border px-4 py-2 text-center">1,280</td>
+                <td className="border px-4 py-2">Intro to JavaScript</td>
+                <td className="border px-4 py-2">Chris</td>
+                <td className="border px-4 py-2">1,280</td>
               </tr>
             </tbody>
           </table>
