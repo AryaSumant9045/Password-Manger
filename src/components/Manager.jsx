@@ -107,7 +107,7 @@ const Manager = () => {
       <div className="passwords flex justify-center">
         {passwordArray.length === 0 && <div>No password to show</div>}
         {passwordArray.length != 0 && (
-          <table className="table-auto w-full mx-30 bg-purple-200 rounded-md overflow-hidden">
+          <table className="table-auto w-full mx-32 bg-purple-200 rounded-md overflow-hidden">
             <thead className=" bg-purple-500 text-white">
               <tr>
                 <th className="px-4 py-2">Site</th>
