@@ -197,7 +197,7 @@ const Manager = () => {
                       </div>
                     </td>
                     <td className="border px-4 py-2 text-center">
-                      <span><img className="w-4" src="/icons/icons8-edit.aep" alt="" /></span>
+                      <span><img className="w-4" src="/icons/icons8-pencil.gif" alt="" /></span>
                     </td>
                   </tr>
                 );
