@@ -16,6 +16,8 @@ const Manager = () => {
   const savePassword = () =>{
 
   }
+  const handleChange = ()
+
   return (
     <>
       <div class="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]">
@@ -35,6 +37,7 @@ const Manager = () => {
         <div className="text-black flex flex-col p-10 gap-8 items-center">
           <input
             value={form.site}
+            onChange={handleChange}
             placeholder="Enter Website URL"
             className="rounded-full border border-green-500 p-4 py-1 w-full"
             type="text"
@@ -44,6 +47,7 @@ const Manager = () => {
           <div className="flex w-full gap-8 justify-between">
             <input
             value={form.username}
+            onChange={handleChange}
             placeholder="Enter Username"
               className="rounded-full border border-green-500 p-4 py-1 w-full"
               type="text"
@@ -51,6 +55,7 @@ const Manager = () => {
             <div className="relative">
             <input
             value={form.password}
+            onChange={handleChange}
             placeholder="Enter Password"
               className="rounded-full border border-green-500 p-4 py-1 w-full"
               type="text"
