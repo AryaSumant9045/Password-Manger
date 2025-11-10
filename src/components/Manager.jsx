@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer, toast } from "react-toastify";
 
 const Manager = () => {
   const ref = useRef();
@@ -33,14 +33,27 @@ const Manager = () => {
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
-  
-  const copyText= (text)=>{
-    alert("copied to clipbord" + text)
-    navigator.clipboard.writeText(text)
-  }
+
+  const copyText = (text) => {
+    alert("copied to clipbord" + text);
+    navigator.clipboard.writeText(text);
+  };
 
   return (
     <>
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick={false}
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+        transition={Bounce'
+      />
       <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]">
         <div className="absolute bottom-0 left-0 right-0 top-0 bg-[radial-gradient(circle_800px_at_100%_200px,#d5c5ff,transparent)]"></div>
       </div>
@@ -137,7 +150,9 @@ const Manager = () => {
                         </a>
                         <img
                           className=" lordiconcopy w-5 hover:cursor-pointer "
-                          onClick={()=>{copyText(item.site)}}
+                          onClick={() => {
+                            copyText(item.site);
+                          }}
                           src="/icons/copy.apng"
                           alt="copy"
                         />
@@ -148,7 +163,9 @@ const Manager = () => {
                         {item.username}
                         <img
                           className=" lordiconcopy w-5 hover:cursor-pointer"
-                          onClick={()=>{copyText(item.username)}}
+                          onClick={() => {
+                            copyText(item.username);
+                          }}
                           src="/icons/copy.apng"
                           alt="copy"
                         />
@@ -159,7 +176,9 @@ const Manager = () => {
                         {item.password}
                         <img
                           className=" lordiconcopy w-5 hover:cursor-pointer"
-                          onClick={()=>{copyText(item.password)}}
+                          onClick={() => {
+                            copyText(item.password);
+                          }}
                           src="/icons/copy.apng"
                           alt="copy"
                         />
