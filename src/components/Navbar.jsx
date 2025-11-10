@@ -17,6 +17,7 @@ const Navbar = () => {
             <a className='hover:font-bold' href="#">Home</a>
         </li>
       </ul>
+      
       </div>
     </nav>
   )
