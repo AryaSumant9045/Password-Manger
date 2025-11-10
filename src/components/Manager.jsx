@@ -43,7 +43,7 @@ const Manager = () => {
   const editPassword = (id) => {
       console.log("Editing password with id:" + id)
     // console.log(form)
-    setPasswordArray(passwordArray.filter(i=>i.id==id)[0]);
+    setForm(passwordArray.filter(i=>i.id==id)[0]);
     // localStorage.setItem("passwords", JSON.stringify([...passwordArray, form]));
     // console.log(...passwordArray, form);
   };
