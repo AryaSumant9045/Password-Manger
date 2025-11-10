@@ -127,8 +127,9 @@ const Manager = () => {
                     <td className="border px-4 py-2 text-center">
                       <a href={item.site} target="_blank">
                       {item.site}
-                      <img src="/icons/copy.apng" alt="copy" />
+                      
                       </a>
+                      <img src="/icons/copy.apng" alt="copy" />
                     </td>
                     <td className="border px-4 py-2 text-center">
                       {item.username}
