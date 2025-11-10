@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 import { ToastContainer, toast } from "react-toastify";
-import { v4 as uuidv4 } from 'uuid';
+import { v4 as uuidv4 } from "uuid";
 
 const Manager = () => {
   const ref = useRef();
@@ -27,24 +27,30 @@ const Manager = () => {
   };
   const savePassword = () => {
     // console.log(form)
-    setPasswordArray([...passwordArray,{...form , id: uuidv4()}]);
-    localStorage.setItem("passwords", JSON.stringify([...passwordArray, {...form , id: uuidv4()}]));
+    setPasswordArray([...passwordArray, { ...form, id: uuidv4() }]);
+    localStorage.setItem(
+      "passwords",
+      JSON.stringify([...passwordArray, { ...form, id: uuidv4() }])
+    );
     console.log([...passwordArray, form]);
   };
 
-    const deletePassword = (id) => {
-      console.log("Deleting password with id:" + id)
+  const deletePassword = (id) => {
+    console.log("Deleting password with id:" + id);
     // console.log(form)
-    setPasswordArray(passwordArray.filter(item=>item.id!==id));
-    localStorage.setItem("passwords", JSON.stringify(passwordArray.filter(item=>item.id!==id)));
+    setPasswordArray(passwordArray.filter((item) => item.id !== id));
+    localStorage.setItem(
+      "passwords",
+      JSON.stringify(passwordArray.filter((item) => item.id !== id))
+    );
     // console.log(...passwordArray, form);
   };
 
   const editPassword = (id) => {
-      console.log("Editing password with id:" + id)
+    console.log("Editing password with id:" + id);
     // console.log(form)
-    setForm(passwordArray.filter(i=>i.id==id)[0]);
-    setPasswordArray(passwordArray.filter(item=>item.id!==id))
+    setForm(passwordArray.filter((i) => i.id == id)[0]);
+    setPasswordArray(passwordArray.filter((item) => item.id !== id));
     // localStorage.setItem("passwords", JSON.stringify([...passwordArray, form]));
     // console.log(...passwordArray, form);
   };
@@ -64,7 +70,7 @@ const Manager = () => {
       pauseOnHover: true,
       draggable: true,
       progress: undefined,
-      theme: "light"
+      theme: "light",
     });
     navigator.clipboard.writeText(text);
   };
@@ -216,8 +222,26 @@ const Manager = () => {
                       </div>
                     </td>
                     <td className="border px-4 py-2 text-center flex gap-3 justify-center">
-                      <span><img className="w-5 hover:cursor-pointer " onClick={()=>{editPassword(item.id)}} src="/icons/icons8-pencil.gif" alt="" /></span>
-                      <span><img className="w-5 hover:cursor-pointer " onClick={()=>{deletePassword(item.id)}} src="/icons/icons8-delete.gif" alt="" /></span>
+                      <span>
+                        <img
+                          className="w-5 hover:cursor-pointer "
+                          onClick={() => {
+                            editPassword(item.id);
+                          }}
+                          src="/icons/icons8-pencil.gif"
+                          alt=""
+                        />
+                      </span>
+                      <span>
+                        <img
+                          className="w-5 hover:cursor-pointer "
+                          onClick={() => {
+                            deletePassword(item.id);
+                          }}
+                          src="/icons/icons8-delete.gif"
+                          alt=""
+                        />
+                      </span>
                     </td>
                   </tr>
                 );
