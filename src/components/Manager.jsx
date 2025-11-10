@@ -116,7 +116,7 @@ const Manager = () => {
               </tr>
             </thead>
 
-            <tbody className="w-fit">
+            <tbody className=" max-w-max">
               {passwordArray.map((item, index) => {
                 return (
                   <tr key={index}>
