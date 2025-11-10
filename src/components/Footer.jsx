@@ -7,7 +7,7 @@ const Footer = () => {
 
       </div>
       <div>
-        <span>Created With <img src="/icons/love.png" alt="love" />by AryaSumant
+        Created With <img src="/icons/love.png" alt="love" />by AryaSumant
       </div>
     </div>
   )
