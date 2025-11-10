@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
       <div>
-        <h1 className="text-4xl font-bold text-center">
+        <h1 className="text-1xl text-center">
           <span className="text-green-600"> &lt;</span>
           Pass
           <span className="text-green-600"> OP/&gt;</span>
