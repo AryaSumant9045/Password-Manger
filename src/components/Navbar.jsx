@@ -18,9 +18,9 @@ const Navbar = () => {
         </li>
       </ul>
       <button className='hover:rounded-2xl hover:bg-green-800 hover:'>
-        <div className='flex justify-around gap-1'>
+        <div className='flex justify-around gap-2'>
           <img src="/icons/github.png" alt="" />
-          <span className='pt-3 font-bold hover:cursor-pointer'>Github</span>
+          <span className='pt-3 pr-2 font-bold hover:cursor-pointer'>Github</span>
         </div>
       </button>
       </div>
