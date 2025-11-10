@@ -31,6 +31,8 @@ const Manager = () => {
     localStorage.setItem("passwords", JSON.stringify([...passwordArray, form]));
     console.log(...passwordArray, form);
   };
+
+  
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
