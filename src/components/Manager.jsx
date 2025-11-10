@@ -25,6 +25,7 @@ const Manager = () => {
   const savePassword = () =>{
     console.log(form)
     setPasswordArray([...passwordArray, form])
+    console.log(passwordArray)
   }
   const handleChange = (e) =>{
     setForm({...form, [e.target.name]: e.target.value})
