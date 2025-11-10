@@ -20,6 +20,9 @@ const Manager = () => {
     if(passwords){
       passwordArray = JSON.parse(passwords)
     }
+    else{
+      passwordArray = []
+    }
   }
   const handleChange = (e) =>{
     setForm({...form, [e.target.name]: e.target.value})
