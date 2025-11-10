@@ -4,6 +4,7 @@ const Manager = () => {
 
   const ref = useRef()
   const [form, setForm] = useState({site: '', username: '', password: ''})
+  const [passwordArray, setpasswordArray] = useState(initialState)
   const ShowPassword = () =>{
     alert("show password")
     if(ref.current.src.includes('icons/crosseye.png')){
