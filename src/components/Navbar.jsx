@@ -18,7 +18,9 @@ const Navbar = () => {
         </li>
       </ul>
       <button>
-        
+        <div>
+          <img src="/icons/github.png" alt="" />
+        </div>
       </button>
       </div>
     </nav>
