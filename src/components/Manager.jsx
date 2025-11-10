@@ -127,6 +127,7 @@ const Manager = () => {
                     <td className="border px-4 py-2 text-center">
                       <a href={item.site} target="_blank">
                       {item.site}
+                      
                       </a>
                     </td>
                     <td className="border px-4 py-2 text-center">
