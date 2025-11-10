@@ -33,7 +33,7 @@ const Manager = () => {
       JSON.stringify([...passwordArray, { ...form, id: uuidv4() }])
     );
     console.log([...passwordArray, form]);
-    setForm.cl
+    setForm.clear({ site: "", username: "", password: "" })
   };
 
   const deletePassword = (id) => {
