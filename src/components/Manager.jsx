@@ -34,7 +34,7 @@ const Manager = () => {
     );
     console.log([...passwordArray, form]);
     setForm({ site: "", username: "", password: "" });
-    toast("Copied to clickborad!", {
+    toast("Password saved sucessfully!", {
       position: "top-right",
       autoClose: 5000,
       hideProgressBar: false,
