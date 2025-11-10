@@ -26,7 +26,7 @@ const Manager = () => {
     }
   };
   const savePassword = () => {
-    if(form.site.length > 3 && form.username.length > 3 && form.passw >3){
+    if(form.site.length > 3 && form.username.length > 3 && form.password.length >3){
     // console.log(form)
     setPasswordArray([...passwordArray, { ...form, id: uuidv4() }]);
     localStorage.setItem(
