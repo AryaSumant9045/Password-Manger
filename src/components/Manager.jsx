@@ -34,6 +34,7 @@ const Manager = () => {
   };
   
   const copyText= (text)=>{
+    alert("copied to clipbord" + text)
     navigator.clipboard.writeText(text)
   }
 
