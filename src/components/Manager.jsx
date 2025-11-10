@@ -69,11 +69,12 @@ const Manager = () => {
             />
             <div className="relative">
               <input
+              
                 value={form.password}
                 onChange={handleChange}
                 placeholder="Enter Password"
                 className="rounded-full border border-green-500 p-4 py-1 w-full"
-                type="text"
+                type="password"
                 name="password"
               />
               <span className="absolute right-0 cursor-pointer">
