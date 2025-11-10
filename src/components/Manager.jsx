@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 
 const Manager = () => {
   const ref = useRef();
-  const passwordRef = useRef()
+  const passwordRef = useRef();
   const [form, setForm] = useState({ site: "", username: "", password: "" });
   const [passwordArray, setPasswordArray] = useState([]);
 
@@ -14,13 +14,13 @@ const Manager = () => {
   }, []);
 
   const ShowPassword = () => {
-    passwordRef.current.type = 'text'
+    passwordRef.current.type = "text";
     if (ref.current.src.includes("icons/crosseye.png")) {
       ref.current.src = "icons/eye.png";
-      passwordRef.current.type = 'text'
+      passwordRef.current.type = "text";
     } else {
       ref.current.src = "icons/crosseye.png";
-      passwordRef.current.type = 'password'
+      passwordRef.current.type = "password";
     }
   };
   const savePassword = () => {
@@ -126,18 +126,19 @@ const Manager = () => {
                   <tr key={index}>
                     <td className="border flex px-4 py-2 text-center">
                       <a href={item.site} target="_blank">
-                      {item.site}
-                      
+                        {item.site}
                       </a>
-                      <img className="w-5 hover:cursor-pointer" src="/icons/copy.apng" alt="copy" />
+                      <img
+                        className="w-5 hover:cursor-pointer"
+                        src="/icons/copy.apng"
+                        alt="copy"
+                      />
                     </td>
-                    <td className="border flex px-4 py-2 text-center">
+                    <td className="border px-4 py-2 text-center">
                       {item.username}
-                      <img className="w-5 hover:cursor-pointer" src="/icons/copy.apng" alt="copy" />
                     </td>
-                    <td className="border flex px-4 py-2 text-center">
+                    <td className="border px-4 py-2 text-center">
                       {item.password}
-                      <img className="w-5 hover:cursor-pointer" src="/icons/copy.apng" alt="copy" />
                     </td>
                   </tr>
                 );
