@@ -38,12 +38,15 @@ const Manager = () => {
   const deletePassword = (id) => {
     console.log("Deleting password with id:" + id);
     // console.log(form)
-    setPasswordArray(passwordArray.filter((item) => item.id !== id));
-    let c = confirm("Do you really want to delete this password?")
-    localStorage.setItem(
-      "passwords",
-      JSON.stringify(passwordArray.filter((item) => item.id !== id))
-    );
+    let c = confirm("Do you really want to delete this password?");
+    if (c) {
+      setPasswordArray(passwordArray.filter((item) => item.id !== id));
+
+      localStorage.setItem(
+        "passwords",
+        JSON.stringify(passwordArray.filter((item) => item.id !== id))
+      );
+    }
     // console.log(...passwordArray, form);
   };
 
