@@ -142,6 +142,7 @@ const Manager = () => {
                         {item.username}
                         <img
                           className=" lordiconcopy w-5 hover:cursor-pointer"
+                          onClick={copyText(item.username)}
                           src="/icons/copy.apng"
                           alt="copy"
                         />
@@ -152,6 +153,7 @@ const Manager = () => {
                         {item.password}
                         <img
                           className=" lordiconcopy w-5 hover:cursor-pointer"
+                          onClick={copyText(item.password)}
                           src="/icons/copy.apng"
                           alt="copy"
                         />
