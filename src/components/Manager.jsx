@@ -4,7 +4,10 @@ const Manager = () => {
 
   const ref = useRef()
   const [form, setForm] = useState({site: '', username: '', password: ''})
-  const [passwordArray, setpasswordArray] = useState(initialState)
+  const [passwordArray, setPasswordArray] = useState([])
+
+  usee
+
   const ShowPassword = () =>{
     alert("show password")
     if(ref.current.src.includes('icons/crosseye.png')){
@@ -16,14 +19,7 @@ const Manager = () => {
   }
   const savePassword = () =>{
     console.log(form)
-    let passwords = localStorage.getItem("passwords")
-    let passwordArray
-    if(passwords){
-      passwordArray = JSON.parse(passwords)
-    }
-    else{
-      passwordArray = []
-    }
+    
   }
   const handleChange = (e) =>{
     setForm({...form, [e.target.name]: e.target.value})
