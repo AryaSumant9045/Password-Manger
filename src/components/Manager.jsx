@@ -183,7 +183,7 @@ const Manager = () => {
                           onClick={() => {
                             copyText(item.site);
                           }}
-                          src="/icons/copy.apng"
+                          src="/icons/copy.gif"
                           alt="copy"
                         />
                       </div>
@@ -196,7 +196,7 @@ const Manager = () => {
                           onClick={() => {
                             copyText(item.username);
                           }}
-                          src="/icons/copy.apng"
+                          src="/icons/copy.gif"
                           alt="copy"
                         />
                       </div>
