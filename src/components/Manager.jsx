@@ -20,6 +20,7 @@ const Manager = () => {
       passwordRef.current.type = 'text'
     } else {
       ref.current.src = "icons/crosseye.png";
+      passwordRef.current.type = 'password'
     }
   };
   const savePassword = () => {
