@@ -33,8 +33,8 @@ const Manager = () => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
   
-  const copyText= ()=>{
-    
+  const copyText= (text)=>{
+    navigator.clipboard.writeText(text)
   }
 
   return (
