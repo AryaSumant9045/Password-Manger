@@ -104,7 +104,7 @@ const Manager = () => {
       <div className="passwords">
         <h2>
           Your Passwords
-          <table className="table-auto">
+          <table className="table-auto w-full bg-00">
             <thead>
               <tr>
                 <th className="px-4 py-2">Title</th>
