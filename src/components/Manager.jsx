@@ -101,8 +101,9 @@ const Manager = () => {
           </button>
         </div>
       </div>
-      <div className="passwords flex ">
-          <h2>Your Passwords</h2>
+      <h2>Your Passwords</h2>
+      <div className="passwords flex justify-center">
+          
           <table className="table-auto w-auto">
             <thead className=" bg-purple-800 text-white">
               <tr>
