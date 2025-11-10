@@ -2,7 +2,6 @@ import React, { useRef, useState, useEffect } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import { v4 as uuidv4 } from "uuid";
 
-
 const Manager = () => {
   const ref = useRef();
   const passwordRef = useRef();
@@ -34,7 +33,7 @@ const Manager = () => {
       JSON.stringify([...passwordArray, { ...form, id: uuidv4() }])
     );
     console.log([...passwordArray, form]);
-    setForm({ site: "", username: "", password: "" })
+    setForm({ site: "", username: "", password: "" });
   };
 
   const deletePassword = (id) => {
@@ -48,15 +47,15 @@ const Manager = () => {
         JSON.stringify(passwordArray.filter((item) => item.id !== id))
       );
       toast("Password deleted sucessfully!", {
-      position: "top-right",
-      autoClose: 5000,
-      hideProgressBar: false,
-      closeOnClick: false,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      theme: "dark",
-    });
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: false,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+      });
     }
     // console.log(...passwordArray, form);
   };
@@ -92,16 +91,15 @@ const Manager = () => {
     <>
       <ToastContainer
         position="top-right"
-        autoClose={5000}
+        autoClose={3000}
         hideProgressBar={false}
         newestOnTop={false}
-        closeOnClick={false}
+        closeOnClick={true} // Changed to true
         rtl={false}
         pauseOnFocusLoss
         draggable
         pauseOnHover
-        theme="light"
-        transition="Bounce"
+        theme="dark" // Changed to match your toast theme
       />
       <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]">
         <div className="absolute bottom-0 left-0 right-0 top-0 bg-[radial-gradient(circle_800px_at_100%_200px,#d5c5ff,transparent)]"></div>
