@@ -14,7 +14,7 @@ const Manager = () => {
     }
   }
   const savePassword = () =>{
-    
+
   }
   return (
     <>
@@ -34,6 +34,7 @@ const Manager = () => {
         </p>
         <div className="text-black flex flex-col p-10 gap-8 items-center">
           <input
+            value={form.site}
             placeholder="Enter Website URL"
             className="rounded-full border border-green-500 p-4 py-1 w-full"
             type="text"
