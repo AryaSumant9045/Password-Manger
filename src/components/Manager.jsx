@@ -197,7 +197,7 @@ const Manager = () => {
                       </div>
                     </td>
                     <td className="border px-4 py-2 text-center">
-                      <span>Delete</span>
+                      <span><img src="/icons/edit_hover.web" alt="" /></span>
                     </td>
                   </tr>
                 );
