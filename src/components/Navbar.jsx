@@ -18,7 +18,7 @@ const Navbar = () => {
         </li>
       </ul>
       <button>
-        <div className='flex justify-between tex'>
+        <div className='flex justify-between'>
           <img src="/icons/github.png" alt="" />
           <span>Github</span>
         </div>
