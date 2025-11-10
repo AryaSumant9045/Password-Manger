@@ -43,7 +43,7 @@ const Manager = () => {
             placeholder="Enter Website URL"
             className="rounded-full border border-green-500 p-4 py-1 w-full"
             type="text"
-            name=""
+            name="site"
             id=""
           />
           <div className="flex w-full gap-8 justify-between">
@@ -53,6 +53,7 @@ const Manager = () => {
             placeholder="Enter Username"
               className="rounded-full border border-green-500 p-4 py-1 w-full"
               type="text"
+              name="username"
             />
             <div className="relative">
             <input
@@ -61,6 +62,7 @@ const Manager = () => {
             placeholder="Enter Password"
               className="rounded-full border border-green-500 p-4 py-1 w-full"
               type="text"
+              name="password"
             />
             <span className="absolute right-0 cursor-pointer">
               <img width={35} ref={ref} className="p-1" src='icons/eye.png' alt="eye" onClick={ShowPassword}/>
