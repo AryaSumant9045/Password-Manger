@@ -47,7 +47,7 @@ const Manager = () => {
     });
     }
     else{
-      toast("password not saved!")
+      toast("password not saved! Please put more than three words")
     }
   };
 
