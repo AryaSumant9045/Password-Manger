@@ -8,6 +8,7 @@ function App() {
 
   return (
     <>
+    <div className="className"></div>
       <Navbar/>
       {/* fixed to viewport — always visible as you scroll */}
 <div className="fixed inset-0 -z-10 w-full bg-white
