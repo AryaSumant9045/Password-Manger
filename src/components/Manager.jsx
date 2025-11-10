@@ -1,7 +1,9 @@
 import React, { useRef } from "react";
 
 const Manager = () => {
+
   const ref = useRef()
+
   const ShowPassword = () =>{
     alert("show password")
     if(ref.current.src.includes('icons/crosseye.png')){
@@ -10,6 +12,9 @@ const Manager = () => {
     else{
     ref.current.src = 'icons/crosseye.png'
     }
+  }
+  const savePassword = () =>{
+    
   }
   return (
     <>
@@ -53,7 +58,7 @@ const Manager = () => {
             </div>
           </div>
 
-          <button className="flex justify-center gap-2 items-center bg-green-500 hover:bg-green-600 rounded-full px-4 py-2 w-fit">
+          <button onClick={savePassword} className="flex justify-center gap-2 items-center bg-green-500 hover:bg-green-600 rounded-full px-4 py-2 w-fit">
             <lord-icon
               src="https://cdn.lordicon.com/ueoydrft.json"
               trigger="hover"
