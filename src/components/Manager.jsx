@@ -6,7 +6,16 @@ const Manager = () => {
   const [form, setForm] = useState({site: '', username: '', password: ''})
   const [passwordArray, setPasswordArray] = useState([])
 
-  usee
+  useEffect(() => {
+  let passwords = localStorage.getItem("passwords")
+    let passwordArray
+    if(passwords){
+      passwordArray = JSON.parse(passwords)
+    }
+    else{
+      passwordArray = []
+    }
+  }, [])
 
   const ShowPassword = () =>{
     alert("show password")
