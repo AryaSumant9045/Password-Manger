@@ -130,7 +130,8 @@ const Manager = () => {
                           {item.site}
                         </a>
                         <img
-                          className=" lordiconcopy w-5 hover:cursor-pointer"
+                          className=" lordiconcopy w-5 hover:cursor-pointer "
+                          onClick={copy}
                           src="/icons/copy.apng"
                           alt="copy"
                         />
