@@ -14,9 +14,9 @@ const Manager = () => {
   }, []);
 
   const ShowPassword = () => {
-    passwordRef.current.type = 'password'
+    passwordRef.current.type = 'text'
     if (ref.current.src.includes("icons/crosseye.png")) {
-      ref.current.src = "icons/crosseye.png";
+      ref.current.src = "icons/eye.png";
       passwordRef.current.type = 'text'
     } else {
       ref.current.src = "icons/crosseye.png";
