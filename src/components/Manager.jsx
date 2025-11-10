@@ -124,7 +124,8 @@ const Manager = () => {
               {passwordArray.map((item, index) => {
                 return (
                   <tr key={index}>
-                    <td className="border flex px-4 py-2 text-center">
+                    <td className="border px-4 py-2 text-center">
+                      <div className="flex jusc"></div>
                       <a href={item.site} target="_blank">
                         {item.site}
                       </a>
