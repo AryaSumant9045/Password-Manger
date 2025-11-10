@@ -27,11 +27,17 @@ const Manager = () => {
   };
   const savePassword = () => {
     // console.log(form)
-    setPasswordArray([...passwordArray, form],{...form, uuidv4()});
+    setPasswordArray([...passwordArray, form],{...form , id: uuidv4()});
     localStorage.setItem("passwords", JSON.stringify([...passwordArray, form]));
     console.log(...passwordArray, form);
   };
 
+    const deletePassword = () => {
+    // console.log(form)
+    // setPasswordArray([...passwordArray, form],{...form , id: uuidv4()});
+    // localStorage.setItem("passwords", JSON.stringify([...passwordArray, form]));
+    // console.log(...passwordArray, form);
+  };
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
