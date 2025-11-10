@@ -108,9 +108,9 @@ const Manager = () => {
           <table className="table-auto w-auto bg-purple-200 rounded-md overflow-hidden">
             <thead className=" bg-purple-500 text-white">
               <tr>
-                <th className="px-4 py-2">Title</th>
-                <th className="px-4 py-2">Author</th>
-                <th className="px-4 py-2">Views</th>
+                <th className="px-4 py-2">Site</th>
+                <th className="px-4 py-2">Username</th>
+                <th className="px-4 py-2">Password</th>
               </tr>
             </thead>
 
