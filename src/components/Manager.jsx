@@ -125,7 +125,7 @@ const Manager = () => {
                 return (
                   <tr key={index}>
                     <td className="border px-4 py-2 ">
-                      <div className="flex justify-center">
+                      <div className="flex justify-center text-center">
                       <a href={item.site} target="_blank">
                         {item.site}
                       </a>
@@ -137,7 +137,9 @@ const Manager = () => {
                       </div>
                     </td>
                     <td className="border px-4 py-2 text-center">
+                      <div className="flex justify-center text-center">
                       {item.username}
+                      </div>
                     </td>
                     <td className="border px-4 py-2 text-center">
                       {item.password}
