@@ -147,6 +147,7 @@ const Manager = () => {
                 <th className="px-4 py-2">Site</th>
                 <th className="px-4 py-2">Username</th>
                 <th className="px-4 py-2">Password</th>
+                <th className="px-4 py-2">Action</th>
               </tr>
             </thead>
 
