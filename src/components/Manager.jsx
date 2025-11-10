@@ -124,12 +124,12 @@ const Manager = () => {
               {passwordArray.map((item, index) => {
                 return (
                   <tr key={index}>
-                    <td className="border px-4 py-2 text-center">
+                    <td className="border flex px-4 py-2 text-center">
                       <a href={item.site} target="_blank">
                       {item.site}
                       
                       </a>
-                      <img src="/icons/copy.apng" alt="copy" />
+                      <img className="w-" src="/icons/copy.apng" alt="copy" />
                     </td>
                     <td className="border px-4 py-2 text-center">
                       {item.username}
