@@ -136,7 +136,7 @@ const Manager = () => {
                         </a>
                         <img
                           className=" lordiconcopy w-5 hover:cursor-pointer "
-                          onClick={copyText(item.site)}
+                          onClick=(){copyText(item.site)}
                           src="/icons/copy.apng"
                           alt="copy"
                         />
