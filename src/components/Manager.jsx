@@ -42,7 +42,7 @@ const Manager = () => {
       >
         <h1 className="text-4xl font-bold text-center">
           <span className="text-green-600"> &lt;</span>
-          Passop
+          Pass
           <span className="text-green-600"> OP/&gt;</span>
         </h1>
         <p className="text-green-900 text-lg text-center">
