@@ -104,7 +104,7 @@ const Manager = () => {
       <h1 className="mx-3 text-2xl mt-3 font-bold text-purple-600">Your Passwords :-</h1>
       <div className="passwords flex justify-center">
           
-          <table className="table-auto w-auto">
+          <table className="table-auto w-auto bg-purple-100">
             <thead className=" bg-purple-500 text-white">
               <tr>
                 <th className="px-4 py-2">Title</th>
