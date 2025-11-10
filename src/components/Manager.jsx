@@ -111,18 +111,15 @@ const Manager = () => {
                 <th className="px-4 py-2">Author</th>
                 <th className="px-4 py-2">Views</th>
               </tr>
-              NameclassName
             </thead>
-            NameclassName
+
             <tbody>
-              NameclassName
               <tr>
-                NameclassName
                 <td className="border px-4 py-2">Intro to CSS</td>
                 <td className="border px-4 py-2">Adam</td>
                 <td className="border px-4 py-2">858</td>
               </tr>
-              NameclassName
+
               <tr class="NameclassNamebg-gray-100">
                 <td className="border px-4 py-2">
                   A Long and Winding Tour of the History of UI Frameworks and
@@ -131,9 +128,8 @@ const Manager = () => {
                 <td className="border px-4 py-2">Adam</td>
                 <td className="border px-4 py-2">112</td>
               </tr>
-              NameclassName
+
               <tr>
-                NameclassName
                 <td className="border px-4 py-2">Intro to JavaScript</td>
                 <td className="border px-4 py-2">Chris</td>
                 <td className="border px-4 py-2">1,280</td>
