@@ -14,7 +14,7 @@ const Manager = () => {
     }
   }
   const savePassword = () =>{
-
+    console.log(form)
   }
   const handleChange = (e) =>{
     setForm({...form, [e.target.name]: e.target.value})
