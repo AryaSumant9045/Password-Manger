@@ -198,7 +198,7 @@ const Manager = () => {
                     </td>
                     <td className="border px-4 py-2 text-center flex gap-3 justify-center">
                       <span><img className="w-5 hover:cursor-pointer " src="/icons/icons8-pencil.gif" alt="" /></span>
-                      <span><img className="w-5 hover:cursor-pointer " src="/icons/icons8-pencil.gif" alt="" /></span>
+                      <span><img className="w-5 hover:cursor-pointer " src="/icons/icons8-delete.gif" alt="" /></span>
                     </td>
                   </tr>
                 );
