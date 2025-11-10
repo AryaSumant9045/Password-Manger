@@ -85,7 +85,7 @@ const Manager = () => {
                   width={35}
                   ref={ref}
                   className="p-1"
-                  src="icons/eye.png"
+                  src="icons/crosseye.png"
                   alt="eye"
                   onClick={ShowPassword}
                 />
