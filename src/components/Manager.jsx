@@ -209,7 +209,7 @@ const Manager = () => {
                           onClick={() => {
                             copyText(item.password);
                           }}
-                          src="/icons/copy.apng"
+                          src="/icons/copy.gif"
                           alt="copy"
                         />
                       </div>
