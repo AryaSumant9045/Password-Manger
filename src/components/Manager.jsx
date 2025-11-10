@@ -43,12 +43,14 @@ const Manager = () => {
           />
           <div className="flex w-full gap-8 justify-between">
             <input
+            value={form.username}
             placeholder="Enter Username"
               className="rounded-full border border-green-500 p-4 py-1 w-full"
               type="text"
             />
             <div className="relative">
             <input
+            value={form.password}
             placeholder="Enter Password"
               className="rounded-full border border-green-500 p-4 py-1 w-full"
               type="text"
