@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 
 const Manager = () => {
   const ref = useRef();
-  const passwordRef = usse
+  const passwordRef = useRef()
   const [form, setForm] = useState({ site: "", username: "", password: "" });
   const [passwordArray, setPasswordArray] = useState([]);
 
