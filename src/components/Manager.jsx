@@ -35,7 +35,7 @@ const Manager = () => {
     const deletePassword = (id) => {
       console.log("Deleting password with id:" + id)
     // console.log(form)
-    // setPasswordArray([...passwordArray, form],{...form , id: uuidv4()});
+    setPasswordArray(passwordArray.filter(item=>item.id));
     // localStorage.setItem("passwords", JSON.stringify([...passwordArray, form]));
     // console.log(...passwordArray, form);
   };
