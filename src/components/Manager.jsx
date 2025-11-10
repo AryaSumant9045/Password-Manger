@@ -121,7 +121,7 @@ const Manager = () => {
                 <td className="border px-4 py-2 text-center">858</td>
               </tr>
 
-              <tr class="NameclassNamebg-gray-100">
+              <tr className="NameclassNamebg-gray-100">
                 <td className="border px-4 py-2 text-center">
                   A Long and Winding Tour of the History of UI Frameworks and
                   Tools and the Impact on Design
