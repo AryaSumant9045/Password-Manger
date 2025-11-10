@@ -115,9 +115,9 @@ const Manager = () => {
 
             <tbody>
               <tr>
-                <td className="border px-4 py-2">Intro to CSS</td>
-                <td className="border px-4 py-2">Adam</td>
-                <td className="border px-4 py-2">858</td>
+                <td className="border px-4 py-2 text-center">Intro to CSS</td>
+                <td className="border px-4 py-2 text-center">Adam</td>
+                <td className="border px-4 py-2 text-center">858</td>
               </tr>
 
               <tr class="NameclassNamebg-gray-100">
