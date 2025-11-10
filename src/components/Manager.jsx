@@ -45,8 +45,7 @@ const Manager = () => {
       pauseOnHover: true,
       draggable: true,
       progress: undefined,
-      theme: "light",
-      transition: Bounce,
+      theme: "light"
     });
   };
 
