@@ -130,7 +130,7 @@ const Manager = () => {
                           {item.site}
                         </a>
                         <img
-                          className="w-5 hover:cursor-pointer"
+                          className=" lordiconcopy w-5 hover:cursor-pointer"
                           src="/icons/copy.apng"
                           alt="copy"
                         />
@@ -140,7 +140,7 @@ const Manager = () => {
                       <div className="flex justify-center text-center">
                         {item.username}
                         <img
-                          className="w-5 hover:cursor-pointer"
+                          className=" lordiconcopy w-5 hover:cursor-pointer"
                           src="/icons/copy.apng"
                           alt="copy"
                         />
