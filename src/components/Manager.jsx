@@ -23,7 +23,8 @@ const Manager = () => {
     }
   }
   const savePassword = () =>{
-    console.log(form)
+    // console.log(form)
+    
     setPasswordArray([...passwordArray, form])
     console.log(passwordArray)
   }
