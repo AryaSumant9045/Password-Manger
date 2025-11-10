@@ -3,7 +3,7 @@ import React, { useRef , useState} from "react";
 const Manager = () => {
 
   const ref = useRef()
-  const [form, setForm] = useState({site: '', username})
+  const [form, setForm] = useState({site: '', username: '', password: ''})
   const ShowPassword = () =>{
     alert("show password")
     if(ref.current.src.includes('icons/crosseye.png')){
