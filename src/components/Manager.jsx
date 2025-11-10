@@ -36,7 +36,7 @@ const Manager = () => {
       console.log("Deleting password with id:" + id)
     // console.log(form)
     setPasswordArray(passwordArray.filter(item=>item.id!==id));
-    // localStorage.setItem("passwords", JSON.stringify([...passwordArray, form]));
+    localStorage.setItem("passwords", JSON.stringify(passwordArray.filter(item=>item.id!==id)));
     // console.log(...passwordArray, form);
   };
 
